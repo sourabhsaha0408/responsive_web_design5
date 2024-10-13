@@ -1,164 +1,235 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.mainNavbar{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainNavbar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nestedNavbar{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+.nestedNavbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
-.companyName{
-    color: #223046;
-    font-size: 20px;
-    font-weight: bolder;
+.companyName {
+  color: #223046;
+  font-size: 20px;
+  font-weight: bolder;
 }
-.navIconButton{
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
+.navIconButton {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
 }
-.subscribeArrow{
-    width: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.subscribeArrow {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.subscribe{
-    font-size: 10px;
-    font-weight: bold;
-    color: #6A95FD;
+.subscribe {
+  font-size: 10px;
+  font-weight: bold;
+  color: #6a95fd;
 }
-.arrowlogo{
-    width: 15px;
-    height: 10px;
+.arrowlogo {
+  width: 15px;
+  height: 10px;
 }
-.shopNow{
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 8px;
-    font-weight: bold;
-    background-color: #EB0089;
-    border-color: #EB0089;
-    color: white;
+.shopNow {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight: bold;
+  background-color: #eb0089;
+  border-color: #eb0089;
+  color: white;
 }
-.twobrushesImageSection{
-    position: relative;
-    display: flex;
-    justify-content: center;
+.twobrushesImageSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-.twobrushesImage{
-    width: 100%;
-    height: 400px;
+.twobrushesImage {
+  width: 100%;
+  height: 400px;
 }
-.promotionSection{
-    position: absolute;
-    top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.promotionSection {
+  position: absolute;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.dentistRecommendedLogo{
-    height: 70px;
+.dentistRecommendedLogo {
+  height: 70px;
 }
-.brushingPerfectedText{
-    margin-top: 20px;
-    font-size: 45px;
-    font-weight: bolder;
+.brushingPerfectedText {
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: bolder;
 }
-.gobyProvided{
-    text-align: center;
-    font-size: 20px;
+.gobyProvided {
+  text-align: center;
+  font-size: 20px;
 }
-.secondButton{
-    margin-top: 20px;
-    width: 120px;
-    background-color: #487CFE;
-    border-color: #487CFE;
+.secondButton {
+  margin-top: 20px;
+  width: 120px;
+  background-color: #487cfe;
+  border-color: #487cfe;
 }
-.afterHeroesSection0{
-    background-color: #487CFE;
-    height: 70px;
+.afterHeroesSection0 {
+  background-color: #487cfe;
+  height: 70px;
 }
-.afterHeroesSection{
-    width: 70%;
+.afterHeroesSection {
+  width: 70%;
 }
-.firstFeature{
-    color: white;
+.firstFeature {
+  color: white;
 }
-.secondFeature{
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
+.secondFeature {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
 }
-.singleBrushImageSection{
-    position: relative;
+.singleBrushImageSection {
+  position: relative;
 }
-.benefitsSection{
-    position: absolute;
-    left: 100px;
-    bottom: 50px;
+.benefitsSection {
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
 }
-.benefits{
-    font-weight: bolder;
-    margin-bottom: 20px;
+.benefits {
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
-.fiveFeatures{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: end;
-    position: absolute;
-    top: 100px;
-    left: 50px;;
+.fiveFeatures {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  position: absolute;
+  top: 100px;
+  left: 50px;
 }
-.pipeImage{
-    height: 50px;
-    margin-left: 10px;
+.pipeImage {
+  height: 50px;
+  margin-left: 10px;
 }
-.logoFeature{
-    margin-left: 10px;
-    display: flex;
+.logoFeature {
+  margin-left: 10px;
+  display: flex;
 }
-.variousFeatures{
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
+.variousFeatures {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
 }
-.fiveFeature2{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: end;
-    position: absolute;
-    top: 200px;
-    left: 400px;;
+.fiveFeature2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  position: absolute;
+  top: 200px;
+  left: 400px;
 }
-.fiveFeature3{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: end;
-    position: absolute;
-    top: 300px;
-    left: 650px;;
+.fiveFeature3 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  position: absolute;
+  top: 300px;
+  left: 650px;
 }
-.fiveFeature4{
-    display: flex;
-    /* align-items: end; */
-    position: absolute;
-    top: 10px;
-    left: 550px;;
+.fiveFeature4 {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 550px;
 }
-.fiveFeature5{
-    display: flex;
-    /* flex-direction: row-reverse; */
-    /* align-items: end; */
-    position: absolute;
-    top: 50px;
-    right: 50px;;
+.fiveFeature5 {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.healthierSmileAndMOre {
+  background-color: #f7f7f7;
+  padding: 30px 0px;
+}
+.healthierSmile {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.moreComments {
+  text-align: center;
+  margin-top: 20px;
+}
+.subscribeSaveCancel0 {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+.subscribeSaveCancel {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.firstOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.option {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.optionAdvantage {
+  text-align: center;
+  margin-top: 10px;
+}
+.brushHeadsBuzz0 {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+.brushHeadsBuzz {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.buzz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buzzOnGoby {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.moreOnBuzz {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.vogue {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.thanSymbols {
+  display: flex;
+  align-items: center;
 }
