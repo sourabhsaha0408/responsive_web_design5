@@ -233,3 +233,30 @@
   display: flex;
   align-items: center;
 }
+.classRoomImageDonation{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.classRoomImage{
+  width: 100%;
+  height: 400px;
+}
+.donation{
+  background-color: white;
+  padding: 40px;
+  position: absolute;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.donationDetetails{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.donationDetetails2{
+  text-align: center;
+}
