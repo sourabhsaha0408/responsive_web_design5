@@ -110,14 +110,6 @@
   font-weight: bolder;
   margin-bottom: 20px;
 }
-.fiveFeatures {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: end;
-  position: absolute;
-  top: 100px;
-  left: 50px;
-}
 .pipeImage {
   height: 50px;
   margin-left: 10px;
@@ -130,6 +122,14 @@
   font-size: 15px;
   font-weight: bold;
   margin-left: 10px;
+}
+.fiveFeature {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  position: absolute;
+  top: 100px;
+  left: 50px;
 }
 .fiveFeature2 {
   display: flex;
@@ -295,10 +295,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3C4F66;
+  background-color: #3c4f66;
 }
 .smileyCompliments {
-  width: 23%;
+  width: 360px;
   display: flex;
   justify-content: space-between;
 }
@@ -313,40 +313,271 @@
   font-weight: bold;
   margin-top: 20px;
 }
-.refund{
+.refund {
   height: 150px;
   color: white;
-  background-color: #3C4F66;
+  background-color: #3c4f66;
   text-align: center;
 }
-.thirdButton{
+.thirdButton {
   margin-top: 20px;
   background-color: white;
   color: black;
   font-weight: bolder;
 }
-.finalBar0{
+.finalBar0 {
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.finalBar{
+.finalBar {
   width: 70%;
   display: flex;
   justify-content: space-between;
 }
-.logoGoby{
+.logoGoby {
   width: 60px;
   display: flex;
   justify-content: space-between;
 }
-.gobyText{
+.gobyText {
   font-weight: bold;
 }
-.termsPolicy{
+.termsPolicy {
   font-size: 15px;
   width: 300px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1160px) {
+  .brushingPerfectedText {
+    font-size: 35px;
+  }
+  .gobyProvided {
+    font-size: 15px;
+  }
+  .fiveFeature4 {
+    left: 450px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .variousUsers {
+    width: 80%;
+  }
+  .subscribeSaveCancel {
+    width: 80%;
+  }
+  .brushHeadsBuzz {
+    width: 80%;
+  }
+  .afterHeroesSection {
+    width: 80%;
+  }
+  .donation {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .brushingPerfectedText {
+    font-size: 30px;
+  }
+  .gobyProvided {
+    font-size: 13px;
+  }
+  .fiveFeature {
+    left: 10px;
+  }
+  .fiveFeature4 {
+    left: 300px;
+  }
+  .fiveFeature3 {
+    left: 0px;
+    right: 50px;
+  }
+  .variousUsers {
+    flex-wrap: wrap;
+  }
+  .userType {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .brushingPerfectedText {
+    font-size: 20px;
+  }
+  .gobyProvided {
+    font-size: 10px;
+  }
+  .variousFeatures {
+    font-size: 12px;
+  }
+  .fiveFeature2 {
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .variousUsers {
+    width: 90%;
+  }
+  .subscribeSaveCancel {
+    width: 90%;
+  }
+  .brushHeadsBuzz {
+    width: 90%;
+  }
+  .afterHeroesSection {
+    width: 90%;
+  }
+  .finalBar {
+    width: 90%;
+    align-items: center;
+  }
+  .nestedNavbar{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .brushingPerfectedText {
+    font-size: 15px;
+  }
+  .gobyProvided {
+    font-size: 8px;
+  }
+  .afterHeroesSection0 {
+    height: 120px;
+  }
+  .afterHeroesSection {
+    flex-wrap: wrap;
+  }
+  .firstFeature {
+    margin-top: 10px;
+  }
+  .secondFeature {
+    margin-bottom: 10px;
+  }
+  .fiveFeature {
+    left: 10px;
+    top: 150px;
+  }
+  .fiveFeature2 {
+    left: 150px;
+  }
+  .fiveFeature4 {
+    left: 100px;
+  }
+  .fiveFeature3 {
+    left: 0px;
+    right: 50px;
+    top: 255px;
+  }
+  .fiveFeature5 {
+    right: 10px;
+  }
+  .benefitsSection {
+    left: 10px;
+    bottom: 10px;
+  }
+  .benefits{
+    margin-bottom: 5px;
+  }
+  .subscribeSaveCancel0{
+    height: 350px;
+  }
+  .subscribeSaveCancel {
+    flex-wrap: wrap;
+  }
+  .brushHeadsBuzz0{
+    padding-bottom: 20px;
+  }
+  .brushHeadsBuzz{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .buzz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .thanSymbols{
+    display: none;
+  }
+  .buzzOnGoby{
+    font-size: 30px;
+  }
+  .moreOnBuzz{
+    font-size: 20px;
+  }
+  .donation {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navIconButton {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .brushingPerfectedText {
+    font-size: 12px;
+  }
+  .gobyProvided {
+    font-size: 10px;
+  }
+  .healthierSmile {
+    font-size: 15px;
+  }
+  .moreComments {
+    font-size: 12px;
+  }
+  .donation {
+    height: 150px;
+  }
+  .donationDetetails {
+    font-size: 15px;
+  }
+  .donationDetetails2 {
+    font-size: 12px;
+  }
+  .flashFoodImage{
+    width: 250px;
+  }
+  .variousUsers {
+    justify-content: center;
+  }
+  .refund {
+    font-size: 13px;
+  }
+  .gobyText{
+    font-size: 15px;
+  }
+  .termsPolicy {
+    font-size: 15px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .terms{
+    font-size: 10px;
+  }
+  .policy{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .afterHeroesSection0 {
+    height: 180px;
+  }
+  .afterHeroesSection{
+    justify-content: center;
+  }
 }
