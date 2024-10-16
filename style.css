@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
 }
-.nestedNavbar {
+.introduction {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -18,12 +18,12 @@
   font-size: 20px;
   font-weight: bolder;
 }
-.navIconButton {
+.quickSubscribeAndShop {
   width: 250px;
   display: flex;
   justify-content: space-between;
 }
-.subscribeArrow {
+.subscriptionPrompt {
   width: 120px;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@
   width: 15px;
   height: 10px;
 }
-.shopNow {
+.multiUsageButton {
   width: 100px;
   height: 30px;
   border-radius: 5px;
@@ -48,7 +48,7 @@
   border-color: #eb0089;
   color: white;
 }
-.twobrushesImageSection {
+.mainAdvertisementSection {
   position: relative;
   display: flex;
   justify-content: center;
@@ -67,12 +67,12 @@
 .dentistRecommendedLogo {
   height: 70px;
 }
-.brushingPerfectedText {
+.qualityClaimPart1 {
   margin-top: 20px;
   font-size: 45px;
   font-weight: bolder;
 }
-.gobyProvided {
+.qualityClaimPart2 {
   text-align: center;
   font-size: 20px;
 }
@@ -82,31 +82,31 @@
   background-color: #487cfe;
   border-color: #487cfe;
 }
-.afterHeroesSection0 {
+.accoladesSection0 {
   background-color: #487cfe;
   height: 70px;
 }
-.afterHeroesSection {
+.accoladesSection {
   width: 70%;
 }
-.firstFeature {
+.accoladePart1 {
   color: white;
 }
-.secondFeature {
+.accoladePart2 {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
   color: white;
 }
-.singleBrushImageSection {
+.productFeatures {
   position: relative;
 }
-.benefitsSection {
+.whyToBuy {
   position: absolute;
   left: 100px;
   bottom: 50px;
 }
-.benefits {
+.reasonToBuy {
   font-weight: bolder;
   margin-bottom: 20px;
 }
@@ -114,16 +114,16 @@
   height: 50px;
   margin-left: 10px;
 }
-.logoFeature {
+.featureDescriptionAndTickImage {
   margin-left: 10px;
   display: flex;
 }
-.variousFeatures {
+.featureDescription {
   font-size: 15px;
   font-weight: bold;
   margin-left: 10px;
 }
-.fiveFeature {
+.feature1 {
   display: flex;
   flex-direction: row-reverse;
   align-items: end;
@@ -131,7 +131,7 @@
   top: 100px;
   left: 50px;
 }
-.fiveFeature2 {
+.feature2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: end;
@@ -139,7 +139,7 @@
   top: 200px;
   left: 400px;
 }
-.fiveFeature3 {
+.feature3 {
   display: flex;
   flex-direction: row-reverse;
   align-items: end;
@@ -147,85 +147,85 @@
   top: 300px;
   left: 650px;
 }
-.fiveFeature4 {
+.feature4 {
   display: flex;
   position: absolute;
   top: 10px;
   left: 550px;
 }
-.fiveFeature5 {
+.feature5 {
   display: flex;
   position: absolute;
   top: 50px;
   right: 50px;
 }
-.healthierSmileAndMOre {
+.productTechnicals {
   background-color: #f7f7f7;
   padding: 30px 0px;
 }
-.healthierSmile {
+.productTechnicalsInDetailPart1 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
 }
-.moreComments {
+.productTechnicalsInDetailPart2 {
   text-align: center;
   margin-top: 20px;
 }
-.subscribeSaveCancel0 {
+.businessModel0 {
   height: 250px;
   display: flex;
   justify-content: center;
   background-color: #f7f7f7;
 }
-.subscribeSaveCancel {
+.businessModel {
   width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white;
 }
-.firstOption {
+.businessModelWorking {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.option {
+.businessModelTitle {
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
 }
-.optionAdvantage {
+.modelAdvantage {
   text-align: center;
   margin-top: 10px;
 }
-.brushHeadsBuzz0 {
+.productReviewWithProductImage0 {
   display: flex;
   justify-content: center;
   background-color: #f7f7f7;
 }
-.brushHeadsBuzz {
+.productReviewWithProductImage {
   width: 60%;
   display: flex;
   justify-content: space-between;
 }
-.buzz {
+.productReview {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.buzzOnGoby {
+.productReviewTitle {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.moreOnBuzz {
+.productReviewDetails {
   text-align: center;
   margin-bottom: 18px;
 }
-.vogue {
-  font-size: 10px;
+.productReviewer {
+  font-size: 12px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -233,7 +233,7 @@
   display: flex;
   align-items: center;
 }
-.classRoomImageDonation {
+.philanthropyWithExampleImage {
   position: relative;
   display: flex;
   justify-content: center;
@@ -243,7 +243,7 @@
   width: 100%;
   height: 400px;
 }
-.donation {
+.philanthropy {
   background-color: white;
   padding: 40px;
   position: absolute;
@@ -252,26 +252,26 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.donationDetetails {
+.philanthropyTitle {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
 }
-.donationDetetails2 {
+.philanthropyDetails {
   text-align: center;
 }
-.hashTagDetails {
+.hashTag {
   height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.hashTag {
+.hashTagID {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
 }
-.afterHashTag {
+.hashTagDescription {
   margin-top: 10px;
   text-align: center;
 }
@@ -290,14 +290,14 @@
   font-weight: bold;
   text-align: center;
 }
-.smileyCompliments0 {
+.tagLIneWithEmoji0 {
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #3c4f66;
 }
-.smileyCompliments {
+.tagLIneWithEmoji {
   width: 360px;
   display: flex;
   justify-content: space-between;
@@ -306,14 +306,14 @@
   height: 50px;
   width: 60px;
 }
-.compliments {
+.tagLine {
   color: white;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   margin-top: 20px;
 }
-.refund {
+.refundPolicy {
   height: 150px;
   color: white;
   background-color: #3c4f66;
@@ -325,13 +325,13 @@
   color: black;
   font-weight: bolder;
 }
-.finalBar0 {
+.concludingSection0 {
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.finalBar {
+.concludingSection {
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -352,13 +352,13 @@
 }
 
 @media screen and (max-width: 1160px) {
-  .brushingPerfectedText {
+  .qualityClaimPart1 {
     font-size: 35px;
   }
-  .gobyProvided {
+  .qualityClaimPart2 {
     font-size: 15px;
   }
-  .fiveFeature4 {
+  .feature4 {
     left: 450px;
   }
 }
@@ -367,34 +367,34 @@
   .variousUsers {
     width: 80%;
   }
-  .subscribeSaveCancel {
+  .businessModel {
     width: 80%;
   }
-  .brushHeadsBuzz {
+  .productReviewWithProductImage {
     width: 80%;
   }
-  .afterHeroesSection {
+  .accoladesSection {
     width: 80%;
   }
-  .donation {
+  .philanthropy {
     padding: 20px;
   }
 }
 
 @media screen and (max-width: 930px) {
-  .brushingPerfectedText {
+  .qualityClaimPart1 {
     font-size: 30px;
   }
-  .gobyProvided {
+  .qualityClaimPart2 {
     font-size: 13px;
   }
-  .fiveFeature {
+  .feature1 {
     left: 10px;
   }
-  .fiveFeature4 {
+  .feature4 {
     left: 300px;
   }
-  .fiveFeature3 {
+  .feature3 {
     left: 0px;
     right: 50px;
   }
@@ -407,16 +407,16 @@
 }
 
 @media screen and (max-width: 830px) {
-  .brushingPerfectedText {
+  .qualityClaimPart1 {
     font-size: 20px;
   }
-  .gobyProvided {
+  .qualityClaimPart2 {
     font-size: 10px;
   }
-  .variousFeatures {
+  .featureDescription {
     font-size: 12px;
   }
-  .fiveFeature2 {
+  .feature2 {
     left: 320px;
   }
 }
@@ -425,138 +425,145 @@
   .variousUsers {
     width: 90%;
   }
-  .subscribeSaveCancel {
+  .businessModel {
     width: 90%;
   }
-  .brushHeadsBuzz {
+  .productReviewWithProductImage {
     width: 90%;
   }
-  .afterHeroesSection {
+  .accoladesSection {
     width: 90%;
   }
-  .finalBar {
+  .concludingSection {
     width: 90%;
     align-items: center;
   }
-  .nestedNavbar{
+  .introduction {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 570px) {
-  .brushingPerfectedText {
+  .qualityClaimPart1 {
     font-size: 15px;
   }
-  .gobyProvided {
+  .qualityClaimPart2 {
     font-size: 8px;
   }
-  .afterHeroesSection0 {
+  .accoladesSection0 {
     height: 120px;
   }
-  .afterHeroesSection {
+  .accoladesSection {
     flex-wrap: wrap;
   }
-  .firstFeature {
+  .accoladePart1 {
     margin-top: 10px;
   }
-  .secondFeature {
+  .accoladePart2 {
     margin-bottom: 10px;
   }
-  .fiveFeature {
+  .feature1 {
     left: 10px;
     top: 150px;
   }
-  .fiveFeature2 {
+  .feature2 {
     left: 150px;
   }
-  .fiveFeature4 {
+  .feature4 {
     left: 100px;
   }
-  .fiveFeature3 {
+  .feature3 {
     left: 0px;
     right: 50px;
     top: 255px;
   }
-  .fiveFeature5 {
+  .feature5 {
     right: 10px;
   }
-  .benefitsSection {
+  .whyToBuy {
     left: 10px;
     bottom: 10px;
   }
-  .benefits{
+  .reasonToBuy {
     margin-bottom: 5px;
   }
-  .subscribeSaveCancel0{
+  .businessModel0 {
     height: 350px;
   }
-  .subscribeSaveCancel {
+  .businessModel {
     flex-wrap: wrap;
   }
-  .brushHeadsBuzz0{
+  .productReviewWithProductImage0 {
     padding-bottom: 20px;
   }
-  .brushHeadsBuzz{
+  .productReviewWithProductImage {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .buzz {
+  .productReview {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .thanSymbols{
+  .thanSymbols {
     display: none;
   }
-  .buzzOnGoby{
+  .productReviewTitle {
     font-size: 30px;
   }
-  .moreOnBuzz{
+  .productReviewDetails {
     font-size: 20px;
   }
-  .donation {
+  .philanthropy {
     padding: 10px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .navIconButton {
+  .quickSubscribeAndShop {
     width: 220px;
     display: flex;
     justify-content: space-between;
   }
-  .brushingPerfectedText {
+  .qualityClaimPart1 {
     font-size: 12px;
   }
-  .gobyProvided {
+  .qualityClaimPart2 {
     font-size: 10px;
   }
-  .healthierSmile {
+  .productTechnicalsInDetailPart1 {
     font-size: 15px;
   }
-  .moreComments {
+  .productTechnicalsInDetailPart2 {
     font-size: 12px;
   }
-  .donation {
-    height: 150px;
+  .philanthropyWithExampleImage {
+    flex-direction: column;
   }
-  .donationDetetails {
-    font-size: 15px;
+  .philanthropy {
+    width: 250px;
+    padding: 30px;
+    position: static;
+    height: 350px;
+    flex-direction: column;
   }
-  .donationDetetails2 {
-    font-size: 12px;
+  .philanthropyTitle {
+    font-size: 20px;
   }
-  .flashFoodImage{
+  .philanthropyDetails {
+    font-size: 18px;
+  }
+  .flashFoodImage {
     width: 250px;
   }
   .variousUsers {
     justify-content: center;
   }
-  .refund {
+  .refundPolicy {
     font-size: 13px;
   }
-  .gobyText{
+  .gobyText {
     font-size: 15px;
   }
   .termsPolicy {
@@ -565,19 +572,19 @@
     display: flex;
     justify-content: space-between;
   }
-  .terms{
+  .terms {
     font-size: 10px;
   }
-  .policy{
+  .policy {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 366px) {
-  .afterHeroesSection0 {
+  .accoladesSection0 {
     height: 180px;
   }
-  .afterHeroesSection{
+  .accoladesSection {
     justify-content: center;
   }
 }
